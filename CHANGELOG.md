@@ -16,6 +16,7 @@ No user facing changes.
 
 - Update default CodeQL bundle version to 2.16.2. [#2124](https://github.com/github/codeql-action/pull/2124)
 - The CodeQL action no longer fails if it can't write to the telemetry api endpoint. [#2121](https://github.com/github/codeql-action/pull/2121)
+- Users of GHES3.9+ and GHEC will no longer need to include `actions: read` permissions to use `upload-sarif` in private repositories.
 
 ## 3.24.0 - 02 Feb 2024
 
